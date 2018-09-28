@@ -21,10 +21,10 @@
   "contributors": [
     "Robert Hernandez <rchernan9030@gmail.com>"
   ],
-  "license": "MIT",
+  "license": "ISC",
   "licenses": [
     {
-      "type": "MIT",
+      "type": "ISC",
       "url": "https://github.com/gentleman-turk/chow-chow/blob/master/LICENSE"
     }
   ],
@@ -34,7 +34,8 @@
   "homepage": "https://github.com/gentleman-turk/chow-chow#readme",
   "peerDependencies": {
     "hapi": ">= 17",
-    "joi": ">= 11"
+    "joi": ">= 11", 
+    "relish": ">= 3"
   },
   "dependencies": {
     "hoek": "~5.0.0"
