@@ -6,7 +6,9 @@ Lead Maintainer: [Robert Hernandez]
 
 ## Introduction
 
-[Relish] provides "better error message for Hapi.js Joi validation." However, in large scale applications managing the individual route [validate] [failAction] functions can become tedious. Even though a common object may be defined in the hapi server's route configuration, this only facilitates common messages. If you need to have a message that reads "optional" instead of "required", there is not way to initialze every route with that option.
+[Relish] provides "better error message for Hapi.js Joi validation." 
+
+However, in large scale applications managing the individual route [validate] [failAction] functions can become tedious. Even though a common object may be defined in the hapi server's route configuration, this only facilitates common messages. If you need to have a message that reads "optional" instead of "required", there is not way to initialze every route with that option.
 
 ## Problem Example
 
