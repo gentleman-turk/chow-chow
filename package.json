@@ -1,0 +1,48 @@
+{
+  "name": "chow-chow",
+  "version": "2.0.0",
+  "description": "Simplify registration of Relish.js messages",
+  "main": "index.js",
+  "scripts": {
+    "start": "node example/server.js",
+    "test": "lab"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gentleman-turk/chow-chow.git"
+  },
+  "keywords": [
+    "hapi",
+    "relish",
+    "joi",
+    "error"
+  ],
+  "author": "gentleman-turk",
+  "contributors": [
+    "Robert Hernandez <rchernan9030@gmail.com>"
+  ],
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/gentleman-turk/chow-chow/blob/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/gentleman-turk/chow-chow/issues"
+  },
+  "homepage": "https://github.com/gentleman-turk/chow-chow#readme",
+  "peerDependencies": {
+    "hapi": ">= 17",
+    "joi": ">= 11"
+  },
+  "dependencies": {
+    "hoek": "~5.0.0"
+  },
+  "devDependencies": {
+    "hapi": "~17.0.0",
+    "joi": "~13.0.0",
+    "lab": "~16.0.0",
+    "code": "~5.2.0"
+  }
+}
