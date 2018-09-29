@@ -2,7 +2,7 @@
 
 _Simplify registration of [Relish.js][Relish] messages._
 
-![npm version] ![Known Vulnerabilities]
+![npm version] ![Known Vulnerabilities] ![GitHub license]
 
 Lead Maintainer: [Robert Hernandez]
 
@@ -10,7 +10,9 @@ Lead Maintainer: [Robert Hernandez]
 
 [Relish] provides "better error message for Hapi.js Joi validation." 
 
-However, in large scale applications managing the individual route [validate] [failAction] functions managing custom messages can become tedious. Even though a common object may be defined in the hapi server's route configuration, this only facilitates common messages. If you need to have a message that reads "optional" instead of "required", there is not way to initialize every route with that option.
+However, in large scale applications managing the individual route [validate] [failAction] functions custom messages can become tedious. Even though a common object may be defined in the hapi server's route configuration, this only facilitates common messages. 
+
+For example, if you need to have a option which is required on one route but optional on another, it is difficult to change the custom message.
 
 ## Problem Example
 
@@ -189,3 +191,4 @@ init();
 [logo]:https://github.com/gentleman-turk/chow-chow/raw/master/images/logo.png
 [npm version]: https://badge.fury.io/js/chow-chow.svg "https://badge.fury.io/js/chow-chow"
 [Known Vulnerabilities]: https://snyk.io/test/github/gentleman-turk/chow-chow/badge.svg "https://snyk.io/test/github/gentleman-turk/chow-chow"
+[GitHub license]: https://img.shields.io/badge/license-ISC-blue.svg "https://github.com/gentleman-turk/chow-chow/blob/master/LICENSE"
