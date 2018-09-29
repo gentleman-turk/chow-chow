@@ -2,6 +2,16 @@
 
 const Relish = require('relish');
 
+const internals = {};
+
+internals.bootstrapRoute = (route) => {
+
+    const relishMessages = route.settings.plugins.chowChow;
+    if (relishMessages) {
+        route.settings.validate.failAction = Relish({ messages: relishMessages }).failAction;
+    }
+};
+
 /**
  * plugin.register registers the name and exposes the implementation of the plugin
  * see: http://hapijs.com/api#serverplugins for plugin format
@@ -9,10 +19,15 @@ const Relish = require('relish');
  */
 exports.plugin = {
     register: (server) => {
+
         server.events.on('route', (route) => {
-            let relishMessages = route.settings.plugins.chowChow;
-            if (relishMessages)
-                route.settings.validate.failAction = Relish({ messages: relishMessages }).failAction;
+
+            internals.bootstrapRoute(route);
+        });
+
+        server.table().forEach((route) => {
+
+            internals.bootstrapRoute(route);
         });
     }
 };
