@@ -1,6 +1,6 @@
 {
   "name": "chow-chow",
-  "version": "0.0.1-alpha.4",
+  "version": "2.0.0",
   "description": "Simplify registration of Relish.js messages",
   "main": "index.js",
   "scripts": {

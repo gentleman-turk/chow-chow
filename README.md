@@ -2,7 +2,7 @@
 
 _Simplify registration of [Relish.js][Relish] messages._
 
-![npm version] ![Known Vulnerabilities] ![GitHub license]
+![npm version] ![Known Vulnerabilities] ![GitHub license] ![Build Status] ![Coverage Status]
 
 Lead Maintainer: [Robert Hernandez]
 
@@ -192,3 +192,5 @@ init();
 [npm version]: https://badge.fury.io/js/chow-chow.svg "https://badge.fury.io/js/chow-chow"
 [Known Vulnerabilities]: https://snyk.io/test/github/gentleman-turk/chow-chow/badge.svg "https://snyk.io/test/github/gentleman-turk/chow-chow"
 [GitHub license]: https://img.shields.io/badge/license-ISC-blue.svg "https://github.com/gentleman-turk/chow-chow/blob/master/LICENSE"
+[Build Status]: https://travis-ci.org/gentleman-turk/chow-chow.svg?branch=master "https://travis-ci.org/gentleman-turk/chow-chow"
+[Coverage Status]: https://coveralls.io/repos/github/gentleman-turk/chow-chow/badge.svg?branch=master "https://coveralls.io/github/gentleman-turk/chow-chow?branch=master"
