@@ -1,6 +1,6 @@
 {
   "name": "chow-chow",
-  "version": "0.0.1-alpha.2",
+  "version": "0.0.1-alpha.4",
   "description": "Simplify registration of Relish.js messages",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gentleman-turk/chow-chow.git"
+    "url": "https://github.com/gentleman-turk/chow-chow.git"
   },
   "keywords": [
     "hapi",
@@ -33,18 +33,12 @@
   },
   "homepage": "https://github.com/gentleman-turk/chow-chow",
   "readme": "https://github.com/gentleman-turk/chow-chow#readme",
-  "peerDependencies": {
-    "hapi": ">= 17",
-    "joi": ">= 11", 
-    "relish": ">= 3"
-  },
   "dependencies": {
-    "hoek": "~5.0.0"
+    "hapi": "^17.0.0",
+    "relish": "^3.0.0"
   },
   "devDependencies": {
-    "hapi": "~17.0.0",
-    "joi": "~13.0.0",
-    "lab": "~16.0.0",
-    "code": "~5.2.0"
+    "lab": "^16.0.0",
+    "code": "^5.0.0"
   }
 }
