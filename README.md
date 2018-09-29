@@ -16,7 +16,7 @@ For example, if you need to have a option which is required on one route but opt
 
 ## Problem Example
 
-```Javascript
+```js
     server.route({
         method: 'POST',
         path: '/relish/custom',
@@ -39,7 +39,7 @@ For example, if you need to have a option which is required on one route but opt
 
 ## Solution Example
 
-```Javascript
+```js
     server.route({
         method: 'POST',
         path: '/example',
@@ -68,7 +68,7 @@ For example, if you need to have a option which is required on one route but opt
 
 ### Bootsrapping in hapi server
 
-```Javascript
+```js
 const server = new Hapi.Server({
     port: 3000,
     host: 'localhost'
@@ -92,7 +92,7 @@ init();
 
 #### Response
 
-```Javascript
+```json
 {
     "statusCode": 400,
     "error": "Bad Request",
@@ -119,7 +119,7 @@ init();
 
 #### Response
 
-```Javascript
+```json
 {
     "statusCode": 400,
     "error": "Bad Request",
@@ -146,7 +146,7 @@ init();
 
 #### Response
 
-```Javascript
+```json
 {
     "statusCode": 400,
     "error": "Bad Request",
@@ -173,7 +173,7 @@ init();
 
 #### Response
 
-```Javascript
+```json
 {
     "statusCode": 400,
     "error": "Bad Request",
