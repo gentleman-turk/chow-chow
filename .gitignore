@@ -7,6 +7,9 @@ yarn-error.log*
 
 package-lock.json
 /.vscode
+coverage.html
+lcov.info
+data.json
 
 # Runtime data
 pids
