@@ -1,9 +1,9 @@
 'use strict';
 
 // npm modules
-const Joi = require('joi');
-const Lab = require('lab');
-const Code = require('code');
+const Joi = require('@hapi/joi');
+const Lab = require('@hapi/lab');
+const Code = require('@hapi/code');
 
 // application modules
 const expect = Code.expect;

@@ -64,7 +64,7 @@ For example, if you need to have a option which is required on one route but opt
 
 ### Installation
 
-    npm install chow-chow
+    npm install @condiments/chow-chow
 
 ### Bootsrapping in hapi server
 
@@ -76,7 +76,7 @@ const server = new Hapi.Server({
 
 
 const init = async () => {
-    await server.register(require('chow-chow'));
+    await server.register(require('@condiments/chow-chow'));
     // register routes
 };
 

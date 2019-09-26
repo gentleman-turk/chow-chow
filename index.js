@@ -1,6 +1,6 @@
 'use strict';
 
-const Relish = require('relish');
+const Relish = require('@condiments/relish');
 
 const internals = {};
 

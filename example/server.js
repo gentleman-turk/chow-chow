@@ -1,8 +1,8 @@
 'use strict';
 /* $lab:coverage:off$ */
-const Hapi = require('hapi');
-const Joi = require('joi');
-const Relish = require('relish');
+const Hapi = require('@hapi/hapi');
+const Joi = require('@hapi/joi');
+const Relish = require('@condiments/relish');
 
 
 // initialize the Hapi Server instance
@@ -23,11 +23,11 @@ server.route({
                 input: Joi.string().min(3).max(10)
             }
         },
-        plugins: {
-            chowChow: {
-                input: 'input is required and must be between 3 and 10 characters in length'
-            }
-        },
+        // plugins: {
+        //     chowChow: {
+        //         input: 'input is required and must be between 3 and 10 characters in length'
+        //     }
+        // },
         handler: handler
     }
 });

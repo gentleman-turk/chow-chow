@@ -1,6 +1,6 @@
 {
-  "name": "chow-chow",
-  "version": "2.0.1",
+  "name": "@condiments/chow-chow",
+  "version": "3.0.0",
   "description": "Simplify registration of Relish.js messages",
   "main": "index.js",
   "scripts": {
@@ -15,8 +15,11 @@
   },
   "keywords": [
     "hapi",
+    "@hapi/hapi",
     "relish",
+    "@hapi/relish",
     "joi",
+    "@hapi/joi",
     "error"
   ],
   "author": "gentleman-turk",
@@ -35,15 +38,20 @@
   },
   "homepage": "https://github.com/gentleman-turk/chow-chow",
   "readme": "https://github.com/gentleman-turk/chow-chow#readme",
-  "dependencies": {
-    "hapi": "^17.0.0",
-    "relish": "^3.0.0"
+  "peerDependencies": {
+    "@hapi/hapi": ">=18",
+    "@hapi/joi": ">=16",
+    "@condiments/relish": ">=4"
   },
+  "dependencies": {},
   "devDependencies": {
-    "lab": "^16.0.0",
-    "code": "^5.0.0",
-    "eslint-plugin-hapi": "^4.0.0",
-    "eslint-config-hapi": "~12.0.0",
-    "coveralls": "~3.0.2"
+    "@condiments/relish": "~4.0.0",
+    "@hapi/code": "^6.0.0",
+    "@hapi/eslint-plugin-hapi": "^4.3.4",
+    "@hapi/eslint-config-hapi": "^12.3.0",
+    "@hapi/hapi": "~18.4.0",
+    "@hapi/joi": "~16.0.1",
+    "@hapi/lab": "^20.2.2",
+    "coveralls": "~3.0.6"
   }
 }
