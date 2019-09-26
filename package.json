@@ -39,19 +39,18 @@
   "homepage": "https://github.com/gentleman-turk/chow-chow",
   "readme": "https://github.com/gentleman-turk/chow-chow#readme",
   "peerDependencies": {
-    "@hapi/hapi": ">=18",
-    "@hapi/joi": ">=16",
-    "@condiments/relish": ">=4"
+    "@hapi/hapi": "^18.4.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@condiments/relish": "^4.0.0",
+    "@hapi/joi": "^16.0.0"
+  },
   "devDependencies": {
-    "@condiments/relish": "~4.0.0",
     "@hapi/code": "^6.0.0",
     "@hapi/eslint-plugin-hapi": "^4.3.4",
     "@hapi/eslint-config-hapi": "^12.3.0",
-    "@hapi/hapi": "~18.4.0",
-    "@hapi/joi": "~16.0.1",
+    "@hapi/hapi": "^18.4.0",
     "@hapi/lab": "^20.2.2",
-    "coveralls": "~3.0.6"
+    "coveralls": "^3.0.6"
   }
 }

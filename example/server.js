@@ -19,15 +19,15 @@ server.route({
     options: {
         id: '/preRoute',
         validate: {
-            payload: {
+            payload: Joi.object({
                 input: Joi.string().min(3).max(10)
+            })
+        },
+        plugins: {
+            chowChow: {
+                input: 'input is required and must be between 3 and 10 characters in length'
             }
         },
-        // plugins: {
-        //     chowChow: {
-        //         input: 'input is required and must be between 3 and 10 characters in length'
-        //     }
-        // },
         handler: handler
     }
 });
@@ -41,9 +41,9 @@ const init = async () => {
         options: {
             id: '/example',
             validate: {
-                payload: {
+                payload: Joi.object({
                     input: Joi.string().min(3).max(10)
-                }
+                })
             },
             plugins: {
                 chowChow: {
@@ -60,9 +60,9 @@ const init = async () => {
         options: {
             id: '/example/coexist',
             validate: {
-                payload: {
+                payload: Joi.object({
                     input: Joi.string().min(3).max(10)
-                },
+                }),
                 failAction: Relish().failAction
             },
             plugins: {
@@ -80,9 +80,9 @@ const init = async () => {
         options: {
             id: '/relish/custom',
             validate: {
-                payload: {
+                payload: Joi.object({
                     input: Joi.string().min(3).max(10)
-                },
+                }),
                 failAction: Relish({
                     messages: {
                         input: 'input is required and must be between 3 and 10 characters in length'
@@ -99,9 +99,9 @@ const init = async () => {
         options: {
             id: '/relish/default',
             validate: {
-                payload: {
+                payload: Joi.object({
                     input: Joi.string().min(3).max(10)
-                },
+                }),
                 failAction: Relish().failAction
             },
             handler: handler
@@ -114,9 +114,9 @@ const init = async () => {
         options: {
             id: '/native',
             validate: {
-                payload: {
+                payload: Joi.object({
                     input: Joi.string().min(3).max(10)
-                }
+                })
             },
             handler: handler
         }
