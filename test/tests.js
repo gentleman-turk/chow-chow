@@ -1,22 +1,13 @@
 'use strict';
 
 // npm modules
-const Joi = require('joi');
-const Lab = require('lab');
-const Code = require('code');
+const Lab = require('@hapi/lab');
+const Code = require('@hapi/code');
 
 // application modules
 const expect = Code.expect;
 const lab = exports.lab = Lab.script();
 const server = require('../example/server');
-
-
-const handler = (response, h) => 'Success';
-const validate = {
-    payload: {
-        input: Joi.string().min(3).max(10)
-    }
-};
 
 lab.experiment('Plugin Tests -->', () => {
 

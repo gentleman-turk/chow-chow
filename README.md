@@ -64,7 +64,7 @@ For example, if you need to have a option which is required on one route but opt
 
 ### Installation
 
-    npm install chow-chow
+    npm install @condiments/chow-chow
 
 ### Bootsrapping in hapi server
 
@@ -76,7 +76,7 @@ const server = new Hapi.Server({
 
 
 const init = async () => {
-    await server.register(require('chow-chow'));
+    await server.register(require('@condiments/chow-chow'));
     // register routes
 };
 
@@ -183,13 +183,13 @@ init();
 
 
 [Relish]: https://github.com/dialexa/relish
-[hapi]: https://hapijs.com/
+[hapi]: https://hapi.dev/
 [joi]: https://github.com/hapijs/joi
-[failAction]: https://hapijs.com/api#lifecycle-failAction
-[validate]: https://hapijs.com/api#-routeoptionsvalidate
+[failAction]: https://hapi.dev/api/?v=18.4.0#-routeoptionsvalidatefailaction
+[validate]: https://hapi.dev/api/?v=18.4.0#-routeoptionsvalidate
 [Robert Hernandez]: https://github.com/gentleman-turk
 [logo]:https://github.com/gentleman-turk/chow-chow/raw/master/images/logo.png
-[npm version]: https://badge.fury.io/js/chow-chow.svg "https://badge.fury.io/js/chow-chow"
+[npm version]: https://badge.fury.io/js/%40condiments%2chow-chow.svg "https://badge.fury.io/js/%40condiments%2chow-chow"
 [Known Vulnerabilities]: https://snyk.io/test/github/gentleman-turk/chow-chow/badge.svg "https://snyk.io/test/github/gentleman-turk/chow-chow"
 [GitHub license]: https://img.shields.io/badge/license-ISC-blue.svg "https://github.com/gentleman-turk/chow-chow/blob/master/LICENSE"
 [Build Status]: https://travis-ci.org/gentleman-turk/chow-chow.svg?branch=master "https://travis-ci.org/gentleman-turk/chow-chow"
