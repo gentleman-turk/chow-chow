@@ -189,7 +189,7 @@ init();
 [validate]: https://hapi.dev/api/?v=18.4.0#-routeoptionsvalidate
 [Robert Hernandez]: https://github.com/gentleman-turk
 [logo]:https://github.com/gentleman-turk/chow-chow/raw/master/images/logo.png
-[npm version]: https://badge.fury.io/js/%40condiments%2chow-chow.svg "https://badge.fury.io/js/%40condiments%2chow-chow"
+[npm version]: https://badge.fury.io/js/%40condiments%2Fchow-chow.svg "https://badge.fury.io/js/%40condiments%2Fchow-chow"
 [Known Vulnerabilities]: https://snyk.io/test/github/gentleman-turk/chow-chow/badge.svg "https://snyk.io/test/github/gentleman-turk/chow-chow"
 [GitHub license]: https://img.shields.io/badge/license-ISC-blue.svg "https://github.com/gentleman-turk/chow-chow/blob/master/LICENSE"
 [Build Status]: https://travis-ci.org/gentleman-turk/chow-chow.svg?branch=master "https://travis-ci.org/gentleman-turk/chow-chow"
