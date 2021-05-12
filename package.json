@@ -46,7 +46,7 @@
     "joi": "^17.4.0"
   },
   "devDependencies": {
-    "@hapi/code": "^8.0.1",
+    "@hapi/code": "^8.0.3",
     "@hapi/eslint-config-hapi": "^13.0.2",
     "@hapi/eslint-plugin-hapi": "^4.3.6",
     "@hapi/hapi": "^20.1.3",
