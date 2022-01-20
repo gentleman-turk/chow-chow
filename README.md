@@ -188,9 +188,9 @@ init();
 [failAction]: https://hapi.dev/api/?v=18.4.0#-routeoptionsvalidatefailaction
 [validate]: https://hapi.dev/api/?v=18.4.0#-routeoptionsvalidate
 [Robert Hernandez]: https://github.com/gentleman-turk
-[logo]:https://github.com/gentleman-turk/chow-chow/raw/master/images/logo.png
+[logo]:https://github.com/gentleman-turk/chow-chow/raw/primary/images/logo.png
 [npm version]: https://badge.fury.io/js/%40condiments%2Fchow-chow.svg "https://badge.fury.io/js/%40condiments%2Fchow-chow"
 [Known Vulnerabilities]: https://snyk.io/test/github/gentleman-turk/chow-chow/badge.svg "https://snyk.io/test/github/gentleman-turk/chow-chow"
-[GitHub license]: https://img.shields.io/badge/license-ISC-blue.svg "https://github.com/gentleman-turk/chow-chow/blob/master/LICENSE"
-[Build Status]: https://travis-ci.org/gentleman-turk/chow-chow.svg?branch=master "https://travis-ci.org/gentleman-turk/chow-chow"
-[Coverage Status]: https://coveralls.io/repos/github/gentleman-turk/chow-chow/badge.svg?branch=master "https://coveralls.io/github/gentleman-turk/chow-chow?branch=master"
+[GitHub license]: https://img.shields.io/badge/license-ISC-blue.svg "https://github.com/gentleman-turk/chow-chow/blob/primary/LICENSE"
+[Build Status]: https://travis-ci.org/gentleman-turk/chow-chow.svg?branch=primary "https://travis-ci.org/gentleman-turk/chow-chow"
+[Coverage Status]: https://coveralls.io/repos/github/gentleman-turk/chow-chow/badge.svg?branch=primary "https://coveralls.io/github/gentleman-turk/chow-chow?branch=primary"
